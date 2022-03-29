@@ -1,2 +1,2 @@
-const listItem = document.querySelector(".list-item")
-console.log(listItem)
+const li = document.querySelector("li")
+console.log(li)
