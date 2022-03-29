@@ -1,4 +1,2 @@
-const lis = document.querySelectorAll("li")
-lis.forEach(li => {
-    console.log(li)
-})
+const imgs = document.querySelectorAll("img")
+imgs.forEach(img => console.log(img.getAttribute("src")))
