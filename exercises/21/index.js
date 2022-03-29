@@ -1,2 +1,4 @@
-const li = document.querySelector("li")
-console.log(li)
+const lis = document.querySelectorAll("li")
+lis.forEach(li => {
+    console.log(li)
+})
